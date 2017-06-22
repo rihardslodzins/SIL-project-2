@@ -1,0 +1,166 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+.carousel .item {
+  height: 400px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 200px;
+}
+
+@media (min-width: 768px) {
+
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px;
+  }
+  .navbar-wrapper .navbar {
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0;
+    background-color: rgba(255,255,255,0.0);
+  }
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+}
+
+
+.carousel-indicators li {
+ background: 
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active{
+    background-color: rgba(255,255,255,0.2);
+}
+#mycontainer{
+  padding-top:30px;
+}
+.feature {
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: 300px;
+    }
+
+    .author {
+        font-style: italic;
+        line-height: 0.5%;
+        color: #aab6aa;
+    }
+
+    .blog-stripe .block-title {
+        background:#004E89;
+        width: 100%;
+        color: white;
+        height: 100%;
+        padding-top: 30px;
+        
+        
+    }
+
+    .newscontainer{
+      padding-bottom: 30px;
+    }
+
+
+    .all-blogs .media {
+        
+        margin-left: -40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+    .picturenews{
+      width: 80px;
+      height: 80px;
+    }
+
+    .mainpicture{
+      position: relative;  
+      width: 100%;
+      height: auto;
+    }
+    h2 {
+    position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+    }
+
+
+    footer {
+      background-color: #426A89;
+      padding: 25px;
+    }
+
+a {
+    color: #C6C6C6;
+    text-decoration: none;
+      
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+#main{
+width:960px;
+margin:50px auto;
+font-family: 'Raleway', sans-serif;
+}
+
+h2{
+background-color: #FEFFED;
+text-align:center;
+border-radius: 10px 10px 0 0;
+margin: -10px -40px;
+padding: 15px;
+}
+
+
+
+
+
+
+
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}

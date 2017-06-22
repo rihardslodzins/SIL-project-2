@@ -1,0 +1,23 @@
+php:
+  build: .
+  ports:
+    - "9086:80"
+    - "9089:443"
+  links:
+    - db
+phpmyadmin:
+  image: phpmyadmin/phpmyadmin
+  links:
+    - db
+  ports:
+    - "9087:80"
+db:
+  image: mariadb
+  ports:
+    - "9088:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: root
+    MYSQL_USER: root
+    MYSQL_PASSWORD: root
+  volumes:
+    - ./dump/sildb.sql:/docker-entrypoint-initdb.d
